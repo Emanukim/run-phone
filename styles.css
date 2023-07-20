@@ -25,6 +25,9 @@ nav {
     flex-basis: 20%;
 
 }
+.phone {
+    width: 100px;
+}
 
 .logo img {
     width: 90px;
@@ -47,12 +50,14 @@ nav {
 
 }
 
+
+
 .information {
     width: 1000px;
     height: 1000px;
     position: absolute;
     top: 50%;
-    left: 0;
+    left: -10%;
     transform: translateY(-50%);
 }
 
@@ -73,6 +78,22 @@ nav {
     color: #fff;
 }
 
+.camera {
+    font-size: 60px;
+}
+
+.processor {
+    font-size: 60px;
+}
+
+.display {
+    font-size: 60px;
+}
+
+.battery {
+    font-size: 60px;
+}
+
 .feature img{
     width: 70px;
 }
@@ -88,22 +109,27 @@ nav {
 .one {
     top:450px;
     right: 50px;
+
 }
 .two {
     top:150px;
     left: 350px;
+    transform: rotate(-90deg);
 }
 .three {
     bottom:450px;
     left: 50px;
+    transform: rotate(-180deg);
+
 }
 .four {
     bottom:150px;
     right: 350px;
+    transform: rotate(-270deg);
 }
 
 .mobile {
-    width: 200px;
+    width: 300px;
     position: absolute;
     top: 50%;
     left: 35%;
@@ -134,4 +160,15 @@ nav {
     width: 15px;
     cursor: pointer;
     transform: rotate(180deg);
+}
+
+.overlay {
+    width: 0;
+    height: 0;
+    border-top: 500px solid #fff;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #fff;
+    border-left: 500px solid #fff;
+    left:o;
+    top: 0;
 }
