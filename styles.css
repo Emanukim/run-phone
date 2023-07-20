@@ -52,7 +52,7 @@ nav {
     height: 1000px;
     position: absolute;
     top: 50%;
-    left: -10%;
+    left: 0;
     transform: translateY(-50%);
 }
 
@@ -68,10 +68,20 @@ nav {
 
 .feature {
     position: absolute;
+    display: flex;
+    color: #fff;
 }
 
 .feature img{
     width: 70px;
+}
+
+.feature  div{
+    margin-left:30px;
+}
+
+.feature  div p{
+    margin-left:8px;
 }
 
 .one {
@@ -89,4 +99,13 @@ nav {
 .four {
     bottom:150px;
     right: 350px;
+}
+
+.mobile {
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+    z-index: 1;
 }
